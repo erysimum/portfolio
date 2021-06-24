@@ -45,7 +45,7 @@ const Navbar = ({ registerReducer: { isAuthenticated, loading }, logout }) => {
       <h1>
         <Link to='/'>
           {' '}
-          <i className='fas fa-code'></i> DevConnector{' '}
+          <i className='fas fa-code'></i> Portfolio{' '}
         </Link>
       </h1>
       <Fragment>{isAuthenticated ? authLink : guestLink}</Fragment>
