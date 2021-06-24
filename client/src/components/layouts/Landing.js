@@ -23,8 +23,8 @@ const Landing = ({ registerReducer: { isAuthenticated } }) => {
     <section className='landing'>
       <div className='dark-overlay'>
         <div className='landing-inner'>
-          <h1 className='x-large'>Developer Connector</h1>
-          <p className='lead'>Create developer profile/portfolio, share posts and get help from other developers</p>
+          <h1 className='x-large'>Portfolio Management</h1>
+          <p className='lead'>Create portfolio, share skills and get help from other developers</p>
           <div className='buttons'>
             <Link to='/register' className='btn btn-primary'>
               Sign Up
